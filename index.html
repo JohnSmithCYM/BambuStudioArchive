@@ -1,75 +1,93 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <title>Bambu Studio 历史版本下载</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bambu Studio 历史版本归档</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      color: rgba(1, 174, 66, 1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 2rem;
+    }
+    th, td {
+      padding: 12px;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+    th {
+      background-color: rgba(1, 174, 66, 0.1);
+    }
+    a {
+      color: rgba(1, 174, 66, 1);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 768px) {
+      table {
+        font-size: 12px;
+      }
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Bambu Studio 历史版本下载</h1>
-    <p>国内 / 海外 下载持续更新 - 社区维护</p>
-  </header>
-
-  <main>
-    <div class="search-bar">
-      <input type="text" id="searchBox" placeholder="输入版本号搜索...">
-    </div>
-
-    <div class="notice">
-      国内访问 GitHub 较慢？请优先使用国内网盘镜像。
-    </div>
-
-    <div class="table-wrapper">
-      <table id="versionTable">
-        <thead>
-          <tr>
-            <th>版本</th>
-            <th>发布日期</th>
-            <th>海外下载</th>
-            <th>国内下载</th>
-          </tr>
-        </thead>
-        <tbody>
-          <!-- JavaScript 渲染填充 -->
-        </tbody>
-      </table>
-    </div>
-
-    <footer>
-      <p>由社区维护，非官方页面。页面源码托管于 GitHub / Cloudflare Pages。</p>
-    </footer>
-  </main>
+  <h1>Bambu Studio 历史版本归档</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>版本号</th>
+        <th>发布时间</th>
+        <th>GitHub</th>
+        <th>Wiki (ZH)</th>
+        <th>Wiki (EN)</th>
+        <th>Win 下载</th>
+        <th>Mac 下载</th>
+      </tr>
+    </thead>
+    <tbody id="version-table-body">
+      <tr><td colspan="7">正在加载数据...</td></tr>
+    </tbody>
+  </table>
 
   <script>
-    async function loadVersions() {
-      const res = await fetch('versions.json');
-      const data = await res.json();
-      const tbody = document.querySelector('#versionTable tbody');
+    fetch("bambu_studio_versions.json")
+      .then(res => res.json())
+      .then(data => {
+        const tbody = document.getElementById("version-table-body");
+        tbody.innerHTML = "";
 
-      data.forEach(item => {
-        const tr = document.createElement('tr');
-        tr.innerHTML = `
-          <td>${item.version}</td>
-          <td>${item.date}</td>
-          <td><a class="button" href="${item.overseas}" target="_blank">GitHub</a></td>
-          <td><a class="button" href="${item.china}" target="_blank">国内镜像</a></td>
-        `;
-        tbody.appendChild(tr);
+        data.forEach(v => {
+          const row = document.createElement("tr");
+          row.innerHTML = `
+            <td>${v.tag}</td>
+            <td>${v.release_date || "-"}</td>
+            <td>${v.github ? `<a href="${v.github}" target="_blank">GitHub</a>` : "-"}</td>
+            <td>${v.wiki_zh ? `<a href="${v.wiki_zh}" target="_blank">Wiki ZH</a>` : "-"}</td>
+            <td>${v.wiki_en ? `<a href="${v.wiki_en}" target="_blank">Wiki EN</a>` : "-"}</td>
+            <td>${v.cn_win ? `<a href="${v.cn_win}" target="_blank">下载</a>` : "-"}</td>
+            <td>${v.cn_mac ? `<a href="${v.cn_mac}" target="_blank">下载</a>` : "-"}</td>
+          `;
+          tbody.appendChild(row);
+        });
+      })
+      .catch(err => {
+        const tbody = document.getElementById("version-table-body");
+        tbody.innerHTML = `<tr><td colspan="7">❌ 加载失败，请稍后重试</td></tr>`;
+        console.error("加载 JSON 出错：", err);
       });
-    }
-
-    document.getElementById('searchBox').addEventListener('input', function () {
-      const query = this.value.toLowerCase();
-      const rows = document.querySelectorAll('#versionTable tbody tr');
-      rows.forEach(row => {
-        const version = row.cells[0].textContent.toLowerCase();
-        row.style.display = version.includes(query) ? '' : 'none';
-      });
-    });
-
-    loadVersions();
   </script>
 </body>
 </html>
