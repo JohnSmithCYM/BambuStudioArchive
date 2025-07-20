@@ -6,7 +6,9 @@
     "wiki_zh": "https://wiki.bambulab.com/zh/software/bambu-studio/release/release-note-2-1-1",
     "wiki_en": "https://wiki.bambulab.com/en/software/bambu-studio/release/release-note-2-1-1",
     "win": "https://github.com/bambulab/BambuStudio/releases/download/v02.01.01.52/Bambu_Studio_win_public-v02.01.01.52-20250616155614.exe",
-    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v02.01.01.52/Bambu_Studio_mac-v02.01.01.52-20250616155614.dmg"
+    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v02.01.01.52/Bambu_Studio_mac-v02.01.01.52-20250616155614.dmg",
+    "cn_win":"https://www.alipan.com/s/EvvVztrP1i3",
+    "cn_mac":""
   },
   {
     "tag": "v02.01.00.59",
@@ -15,7 +17,9 @@
     "wiki_zh": "https://wiki.bambulab.com/zh/software/bambu-studio/release/release-note-2-1-0",
     "wiki_en": "https://wiki.bambulab.com/en/software/bambu-studio/release/release-note-2-1-0",
     "win": "https://github.com/bambulab/BambuStudio/releases/download/v02.01.00.59/Bambu_Studio_win_public-v02.01.00.59-20250530092153.exe",
-    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v02.01.00.59/Bambu_Studio_mac-v02.01.00.59-20250530092153.dmg"
+    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v02.01.00.59/Bambu_Studio_mac-v02.01.00.59-20250530092153.dmg",
+    "cn_win":"https://www.alipan.com/s/Up9HmfW9RHf",
+    "cn_mac":""
   },
   {
     "tag": "V02.00.03.54",
@@ -24,7 +28,9 @@
     "wiki_zh": "https://wiki.bambulab.com/zh/software/bambu-studio/release/release-note-2-0-3",
     "wiki_en": "https://wiki.bambulab.com/en/software/bambu-studio/release/release-note-2-0-3",
     "win": "https://github.com/bambulab/BambuStudio/releases/download/V02.00.03.54/Bambu_Studio_win_public-v02.00.03.54-20250424182834.exe",
-    "mac": "https://github.com/bambulab/BambuStudio/releases/download/V02.00.03.54/Bambu_Studio_mac-v02.00.03.54-20250424182834.dmg"
+    "mac": "https://github.com/bambulab/BambuStudio/releases/download/V02.00.03.54/Bambu_Studio_mac-v02.00.03.54-20250424182834.dmg",
+    "cn_win":"https://www.alipan.com/s/EvvVztrP1i3",
+    "cn_mac":""
   },
   {
     "tag": "v02.00.02.57",
@@ -33,7 +39,9 @@
     "wiki_zh": "https://wiki.bambulab.com/zh/software/bambu-studio/release/release-note-2-0-2",
     "wiki_en": "https://wiki.bambulab.com/en/software/bambu-studio/release/release-note-2-0-2",
     "win": "https://github.com/bambulab/BambuStudio/releases/download/v02.00.02.57/Bambu_Studio_win_public-v02.00.02.57-20250415200919.exe",
-    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v02.00.02.57/Bambu_Studio_mac-v02.00.02.57-20250415200919.dmg"
+    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v02.00.02.57/Bambu_Studio_mac-v02.00.02.57-20250415200919.dmg",
+    "cn_win":"https://www.alipan.com/s/EvvVztrP1i3",
+    "cn_mac":""
   },
   {
     "tag": "v02.00.01.50",
@@ -42,7 +50,9 @@
     "wiki_zh": "https://wiki.bambulab.com/zh/software/bambu-studio/release/release-note-2-0-1",
     "wiki_en": "https://wiki.bambulab.com/en/software/bambu-studio/release/release-note-2-0-1",
     "win": "https://github.com/bambulab/BambuStudio/releases/download/v02.00.01.50/Bambu_Studio_win_public-v02.00.01.50-20250328181949.exe",
-    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v02.00.01.50/Bambu_Studio_mac-v02.00.01.50-20250328181949.dmg"
+    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v02.00.01.50/Bambu_Studio_mac-v02.00.01.50-20250328181949.dmg",
+    "cn_win":"https://www.alipan.com/s/EvvVztrP1i3",
+    "cn_mac":""
   },
   {
     "tag": "v02.00.00.95",
@@ -51,7 +61,9 @@
     "wiki_zh": "https://wiki.bambulab.com/zh/software/bambu-studio/release/release-note-2-0-0",
     "wiki_en": "https://wiki.bambulab.com/en/software/bambu-studio/release/release-note-2-0-0",
     "win": "https://github.com/bambulab/BambuStudio/releases/download/v02.00.00.95/Bambu_Studio_win_public-v02.00.00.95-20250325211800.exe",
-    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v02.00.00.95/Bambu_Studio_mac-v02.00.00.95-20250325211800.dmg"
+    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v02.00.00.95/Bambu_Studio_mac-v02.00.00.95-20250325211800.dmg",
+    "cn_win":"https://www.alipan.com/s/EvvVztrP1i3",
+    "cn_mac":""
   },
   {
     "tag": "v01.10.02.76",
@@ -60,7 +72,9 @@
     "wiki_zh": "https://wiki.bambulab.com/zh/software/bambu-studio/release/release-note-1-10-2",
     "wiki_en": "https://wiki.bambulab.com/en/software/bambu-studio/release/release-note-1-10-2",
     "win": "https://github.com/bambulab/BambuStudio/releases/download/v01.10.02.76/Bambu_Studio_win_public-v01.10.02.76-20250225202310.exe",
-    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.10.02.76/Bambu_Studio_mac-v01.10.02.76-20250225202310.dmg"
+    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.10.02.76/Bambu_Studio_mac-v01.10.02.76-20250225202310.dmg",
+    "cn_win":"https://www.alipan.com/s/EvvVztrP1i3",
+    "cn_mac":""
   },
   {
     "tag": "v01.10.01.50",
@@ -69,7 +83,9 @@
     "wiki_zh": "https://wiki.bambulab.com/zh/software/bambu-studio/release/release-note-1-10-1",
     "wiki_en": "https://wiki.bambulab.com/en/software/bambu-studio/release/release-note-1-10-1",
     "win": "https://github.com/bambulab/BambuStudio/releases/download/v01.10.01.50/Bambu_Studio_win_public-v01.10.01.50-20241115162711.exe",
-    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.10.01.50/Bambu_Studio_mac-v01.10.01.50-20241115162711.dmg"
+    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.10.01.50/Bambu_Studio_mac-v01.10.01.50-20241115162711.dmg",
+    "cn_win":"https://www.alipan.com/s/EvvVztrP1i3",
+    "cn_mac":""
   },
   {
     "tag": "v01.10.00.89",
@@ -78,7 +94,9 @@
     "wiki_zh": "https://wiki.bambulab.com/zh/software/bambu-studio/release/release-note-1-10-0",
     "wiki_en": "https://wiki.bambulab.com/en/software/bambu-studio/release/release-note-1-10-0",
     "win": "https://github.com/bambulab/BambuStudio/releases/download/v01.10.00.89/Bambu_Studio_win_public-v01.10.00.89-20241112123329.exe",
-    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.10.00.89/Bambu_Studio_mac-v01.10.00.89-20241112123329.dmg"
+    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.10.00.89/Bambu_Studio_mac-v01.10.00.89-20241112123329.dmg",
+    "cn_win":"https://www.alipan.com/s/EvvVztrP1i3",
+    "cn_mac":""
   },
   {
     "tag": "v01.09.07.52",
@@ -87,7 +105,9 @@
     "wiki_zh": "https://wiki.bambulab.com/zh/software/bambu-studio/release/release-note-1-9-7",
     "wiki_en": "https://wiki.bambulab.com/en/software/bambu-studio/release/release-note-1-9-7",
     "win": "https://github.com/bambulab/BambuStudio/releases/download/v01.09.07.52/Bambu_Studio_win_public-v01.09.07.52-20240920143753.exe",
-    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.09.07.52/Bambu_Studio_mac-v01.09.07.52-20240920143753.dmg"
+    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.09.07.52/Bambu_Studio_mac-v01.09.07.52-20240920143753.dmg",
+    "cn_win":"https://www.alipan.com/s/EvvVztrP1i3",
+    "cn_mac":""
   },
   {
     "tag": "v01.09.07.50",
@@ -96,7 +116,9 @@
     "wiki_zh": "https://wiki.bambulab.com/zh/software/bambu-studio/release/release-note-1-9-7",
     "wiki_en": "https://wiki.bambulab.com/en/software/bambu-studio/release/release-note-1-9-7",
     "win": "https://github.com/bambulab/BambuStudio/releases/download/v01.09.07.50/Bambu_Studio_win_public-v01.09.07.50-20240918180232.exe",
-    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.09.07.50/Bambu_Studio_mac-v01.09.07.50-20240918180232.dmg"
+    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.09.07.50/Bambu_Studio_mac-v01.09.07.50-20240918180232.dmg",
+    "cn_win":"https://www.alipan.com/s/EvvVztrP1i3",
+    "cn_mac":""
   },
   {
     "tag": "v01.09.05.51",
@@ -105,7 +127,9 @@
     "wiki_zh": "https://wiki.bambulab.com/zh/software/bambu-studio/release/release-note-1-9-5",
     "wiki_en": "https://wiki.bambulab.com/en/software/bambu-studio/release/release-note-1-9-5",
     "win": "https://github.com/bambulab/BambuStudio/releases/download/v01.09.05.51/Bambu_Studio_win_public-v01.09.05.51-20240828205639.exe",
-    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.09.05.51/Bambu_Studio_mac-v01.09.05.51-20240828205639.dmg"
+    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.09.05.51/Bambu_Studio_mac-v01.09.05.51-20240828205639.dmg",
+    "cn_win":"https://www.alipan.com/s/EvvVztrP1i3",
+    "cn_mac":""
   },
   {
     "tag": "v01.09.04.60",
@@ -114,7 +138,9 @@
     "wiki_zh": "https://wiki.bambulab.com/zh/software/bambu-studio/release/release-note-1-9-4",
     "wiki_en": "https://wiki.bambulab.com/en/software/bambu-studio/release/release-note-1-9-4",
     "win": "https://github.com/bambulab/BambuStudio/releases/download/v01.09.04.60/Bambu_Studio_win_public-v01.09.04.60-20240826172441.exe",
-    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.09.04.60/Bambu_Studio_mac-v01.09.04.60-20240826172441.dmg"
+    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.09.04.60/Bambu_Studio_mac-v01.09.04.60-20240826172441.dmg",
+    "cn_win":"https://www.alipan.com/s/EvvVztrP1i3",
+    "cn_mac":""
   },
   {
     "tag": "v01.09.03.50",
@@ -123,7 +149,9 @@
     "wiki_zh": "https://wiki.bambulab.com/zh/software/bambu-studio/release/release-note-1-9-3",
     "wiki_en": "https://wiki.bambulab.com/en/software/bambu-studio/release/release-note-1-9-3",
     "win": "https://github.com/bambulab/BambuStudio/releases/download/v01.09.03.50/Bambu_Studio_win_public-v01.09.03.50-20240621095059.exe",
-    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.09.03.50/Bambu_Studio_mac-v01.09.03.50-20240621095059.dmg"
+    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.09.03.50/Bambu_Studio_mac-v01.09.03.50-20240621095059.dmg",
+    "cn_win":"https://www.alipan.com/s/EvvVztrP1i3",
+    "cn_mac":""
   },
   {
     "tag": "v01.09.02.57",
@@ -132,7 +160,9 @@
     "wiki_zh": "https://wiki.bambulab.com/zh/software/bambu-studio/release/release-note-1-9-2",
     "wiki_en": "https://wiki.bambulab.com/en/software/bambu-studio/release/release-note-1-9-2",
     "win": "https://github.com/bambulab/BambuStudio/releases/download/v01.09.02.57/Bambu_Studio_win_public-v01.09.02.57-20240607194639.exe",
-    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.09.02.57/Bambu_Studio_mac-v01.09.02.57-20240607194639.dmg"
+    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.09.02.57/Bambu_Studio_mac-v01.09.02.57-20240607194639.dmg",
+    "cn_win":"https://www.alipan.com/s/EvvVztrP1i3",
+    "cn_mac":""
   },
   {
     "tag": "v01.09.01.66",
@@ -141,7 +171,9 @@
     "wiki_zh": "https://wiki.bambulab.com/zh/software/bambu-studio/release/release-note-1-9-1",
     "wiki_en": "https://wiki.bambulab.com/en/software/bambu-studio/release/release-note-1-9-1",
     "win": "https://github.com/bambulab/BambuStudio/releases/download/v01.09.01.66/Bambu_Studio_win_public-v01.09.01.67-20240516173854.exe",
-    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.09.01.66/Bambu_Studio_mac-v01.09.01.67-20240514131542.dmg"
+    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.09.01.66/Bambu_Studio_mac-v01.09.01.67-20240514131542.dmg",
+    "cn_win":"https://www.alipan.com/s/EvvVztrP1i3",
+    "cn_mac":""
   },
   {
     "tag": "v01.08.04.51",
@@ -150,7 +182,9 @@
     "wiki_zh": "https://wiki.bambulab.com/zh/software/bambu-studio/release/release-note-1-8-4",
     "wiki_en": "https://wiki.bambulab.com/en/software/bambu-studio/release/release-note-1-8-4",
     "win": "https://github.com/bambulab/BambuStudio/releases/download/v01.08.04.51/Bambu_Studio_win_public-v01.08.04.51-20240117164301.exe",
-    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.08.04.51/Bambu_Studio_mac-v01.08.04.51-20240117164301.dmg"
+    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.08.04.51/Bambu_Studio_mac-v01.08.04.51-20240117164301.dmg",
+    "cn_win":"https://www.alipan.com/s/EvvVztrP1i3",
+    "cn_mac":""
   },
   {
     "tag": "v01.08.03.89",
@@ -159,7 +193,9 @@
     "wiki_zh": "https://wiki.bambulab.com/zh/software/bambu-studio/release/release-note-1-8-3",
     "wiki_en": "https://wiki.bambulab.com/en/software/bambu-studio/release/release-note-1-8-3",
     "win": "https://github.com/bambulab/BambuStudio/releases/download/v01.08.03.89/Bambu_Studio_win_public-v01.08.03.89-20240109202633.exe",
-    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.08.03.89/Bambu_Studio_mac-v01.08.03.89-20240109202633.dmg"
+    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.08.03.89/Bambu_Studio_mac-v01.08.03.89-20240109202633.dmg",
+    "cn_win":"https://www.alipan.com/s/EvvVztrP1i3",
+    "cn_mac":""
   },
   {
     "tag": "v01.08.02.56",
@@ -168,7 +204,9 @@
     "wiki_zh": "https://wiki.bambulab.com/zh/software/bambu-studio/release/release-note-1-8-2",
     "wiki_en": "https://wiki.bambulab.com/en/software/bambu-studio/release/release-note-1-8-2",
     "win": "https://github.com/bambulab/BambuStudio/releases/download/v01.08.02.56/Bambu_Studio_win_public-v01.08.02.56-20231214180334.exe",
-    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.08.02.56/Bambu_Studio_mac-v01.08.02.56-20231214180334.dmg"
+    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.08.02.56/Bambu_Studio_mac-v01.08.02.56-20231214180334.dmg",
+    "cn_win":"https://www.alipan.com/s/EvvVztrP1i3",
+    "cn_mac":""
   },
   {
     "tag": "v01.07.07.89",
@@ -177,7 +215,9 @@
     "wiki_zh": "https://wiki.bambulab.com/zh/software/bambu-studio/release/release-note-1-7-7",
     "wiki_en": "https://wiki.bambulab.com/en/software/bambu-studio/release/release-note-1-7-7",
     "win": "https://github.com/bambulab/BambuStudio/releases/download/v01.07.07.89/Bambu_Studio_win_public-v01.07.07.89-20231013104019.exe",
-    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.07.07.89/Bambu_Studio_mac-v01.07.07.89-20231013104019.dmg"
+    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.07.07.89/Bambu_Studio_mac-v01.07.07.89-20231013104019.dmg",
+    "cn_win":"https://www.alipan.com/s/EvvVztrP1i3",
+    "cn_mac":""
   },
   {
     "tag": "v01.07.07.88",
@@ -186,7 +226,9 @@
     "wiki_zh": "https://wiki.bambulab.com/zh/software/bambu-studio/release/release-note-1-7-7",
     "wiki_en": "https://wiki.bambulab.com/en/software/bambu-studio/release/release-note-1-7-7",
     "win": "https://github.com/bambulab/BambuStudio/releases/download/v01.07.07.88/Bambu_Studio_win_public-v01.07.07.88-20231010083344.exe",
-    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.07.07.88/Bambu_Studio_mac-v01.07.07.88-20231010083344.dmg"
+    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.07.07.88/Bambu_Studio_mac-v01.07.07.88-20231010083344.dmg",
+    "cn_win":"https://www.alipan.com/s/EvvVztrP1i3",
+    "cn_mac":""
   },
   {
     "tag": "v01.07.06.92",
@@ -195,7 +237,9 @@
     "wiki_zh": "https://wiki.bambulab.com/zh/software/bambu-studio/release/release-note-1-7-6",
     "wiki_en": "https://wiki.bambulab.com/en/software/bambu-studio/release/release-note-1-7-6",
     "win": "https://github.com/bambulab/BambuStudio/releases/download/v01.07.06.92/Bambu_Studio_win_public-v01.07.06.92-20230923002726.exe",
-    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.07.06.92/Bambu_Studio_mac-v01.07.06.92-20230923002726.dmg"
+    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.07.06.92/Bambu_Studio_mac-v01.07.06.92-20230923002726.dmg",
+    "cn_win":"https://www.alipan.com/s/EvvVztrP1i3",
+    "cn_mac":""
   },
   {
     "tag": "v01.07.04.52",
@@ -204,7 +248,9 @@
     "wiki_zh": "https://wiki.bambulab.com/zh/software/bambu-studio/release/release-note-1-7-4",
     "wiki_en": "https://wiki.bambulab.com/en/software/bambu-studio/release/release-note-1-7-4",
     "win": "https://github.com/bambulab/BambuStudio/releases/download/v01.07.04.52/Bambu_Studio_win_public-v01.07.04.52-20230816204101.exe",
-    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.07.04.52/Bambu_Studio_mac-v01.07.04.52-20230816204101.dmg"
+    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.07.04.52/Bambu_Studio_mac-v01.07.04.52-20230816204101.dmg",
+    "cn_win":"https://www.alipan.com/s/EvvVztrP1i3",
+    "cn_mac":""
   },
   {
     "tag": "v01.07.03.50",
@@ -213,7 +259,9 @@
     "wiki_zh": "https://wiki.bambulab.com/zh/software/bambu-studio/release/release-note-1-7-3",
     "wiki_en": "https://wiki.bambulab.com/en/software/bambu-studio/release/release-note-1-7-3",
     "win": "https://github.com/bambulab/BambuStudio/releases/download/v01.07.03.50/Bambu_Studio_win_public-v01.07.03.50-20230810190205.exe",
-    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.07.03.50/Bambu_Studio_mac-v01.07.03.50-20230810190205.dmg"
+    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.07.03.50/Bambu_Studio_mac-v01.07.03.50-20230810190205.dmg",
+    "cn_win":"https://www.alipan.com/s/EvvVztrP1i3",
+    "cn_mac":""
   },
   {
     "tag": "v01.07.02.51",
@@ -222,7 +270,9 @@
     "wiki_zh": "https://wiki.bambulab.com/zh/software/bambu-studio/release/release-note-1-7-2",
     "wiki_en": "https://wiki.bambulab.com/en/software/bambu-studio/release/release-note-1-7-2",
     "win": "https://github.com/bambulab/BambuStudio/releases/download/v01.07.02.51/Bambu_Studio_win_public-v01.07.02.51-20230804223010.exe",
-    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.07.02.51/Bambu_Studio_mac-v01.07.02.51-20230804223010.dmg"
+    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.07.02.51/Bambu_Studio_mac-v01.07.02.51-20230804223010.dmg",
+    "cn_win":"https://www.alipan.com/s/EvvVztrP1i3",
+    "cn_mac":""
   },
   {
     "tag": "v01.07.01.62",
@@ -231,6 +281,8 @@
     "wiki_zh": "https://wiki.bambulab.com/zh/software/bambu-studio/release/release-note-1-7-1",
     "wiki_en": "https://wiki.bambulab.com/en/software/bambu-studio/release/release-note-1-7-1",
     "win": "https://github.com/bambulab/BambuStudio/releases/download/v01.07.01.62/Bambu_Studio_win_public-v01.07.01.62-20230801212357.exe",
-    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.07.01.62/Bambu_Studio_mac-v01.07.01.62-20230801212357.dmg"
+    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.07.01.62/Bambu_Studio_mac-v01.07.01.62-20230801212357.dmg",
+    "cn_win":"",
+    "cn_mac":""
   }
 ]
