@@ -2,91 +2,120 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Bambu Studio 历史版本归档</title>
   <style>
     body {
       font-family: "Segoe UI", sans-serif;
-      background-color: #f9f9f9;
+      background-color: white;
       margin: 0;
-      padding: 20px;
+      padding: 2rem;
       color: #333;
     }
+
     h1 {
       text-align: center;
       color: rgba(1, 174, 66, 1);
     }
+
     table {
       width: 100%;
       border-collapse: collapse;
       margin-top: 2rem;
     }
+
+    thead {
+      background-color: rgba(1, 174, 66, 1);
+      color: white;
+    }
+
     th, td {
-      padding: 12px;
-      border: 1px solid #ccc;
+      padding: 12px 10px;
+      border: 1px solid #ddd;
       text-align: center;
+      font-size: 0.95rem;
     }
-    th {
-      background-color: rgba(1, 174, 66, 0.1);
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
     }
-    a {
-      color: rgba(1, 174, 66, 1);
+
+    a.button {
+      background-color: rgba(1, 174, 66, 1);
+      color: white;
+      padding: 6px 10px;
       text-decoration: none;
+      border-radius: 5px;
+      font-size: 0.85rem;
     }
-    a:hover {
-      text-decoration: underline;
+
+    a.button:hover {
+      background-color: #008d3d;
     }
-    @media (max-width: 768px) {
-      table {
-        font-size: 12px;
-      }
+
+    .loading {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 1.2rem;
+      color: rgba(1, 174, 66, 1);
     }
   </style>
 </head>
 <body>
   <h1>Bambu Studio 历史版本归档</h1>
-  <table>
+  <div class="loading">加载中，请稍候...</div>
+  <table id="versionTable" style="display: none;">
     <thead>
       <tr>
         <th>版本号</th>
-        <th>发布时间</th>
+        <th>发布日期</th>
         <th>GitHub</th>
-        <th>Wiki (ZH)</th>
-        <th>Wiki (EN)</th>
-        <th>Win 下载</th>
-        <th>Mac 下载</th>
+        <th>Wiki（中文）</th>
+        <th>Wiki（英文）</th>
+        <th>Windows 下载</th>
+        <th>macOS 下载</th>
       </tr>
     </thead>
-    <tbody id="version-table-body">
-      <tr><td colspan="7">正在加载数据...</td></tr>
-    </tbody>
+    <tbody></tbody>
   </table>
 
   <script>
-    fetch("bambu_studio_versions.json")
-      .then(res => res.json())
+    fetch('bambu_studio_versions.json')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('无法加载版本信息');
+        }
+        return response.json();
+      })
       .then(data => {
-        const tbody = document.getElementById("version-table-body");
-        tbody.innerHTML = "";
+        const table = document.getElementById('versionTable');
+        const tbody = table.querySelector('tbody');
+        const loading = document.querySelector('.loading');
+        loading.style.display = 'none';
+        table.style.display = '';
 
-        data.forEach(v => {
-          const row = document.createElement("tr");
-          row.innerHTML = `
-            <td>${v.tag}</td>
-            <td>${v.release_date || "-"}</td>
-            <td>${v.github ? `<a href="${v.github}" target="_blank">GitHub</a>` : "-"}</td>
-            <td>${v.wiki_zh ? `<a href="${v.wiki_zh}" target="_blank">Wiki ZH</a>` : "-"}</td>
-            <td>${v.wiki_en ? `<a href="${v.wiki_en}" target="_blank">Wiki EN</a>` : "-"}</td>
-            <td>${v.cn_win ? `<a href="${v.cn_win}" target="_blank">下载</a>` : "-"}</td>
-            <td>${v.cn_mac ? `<a href="${v.cn_mac}" target="_blank">下载</a>` : "-"}</td>
+        data.sort((a, b) => new Date(b.release_date) - new Date(a.release_date));
+
+        data.forEach(item => {
+          const tr = document.createElement('tr');
+
+          const createLink = (url, text) => url ? `<a href="${url}" class="button" target="_blank">${text}</a>` : '-';
+
+          tr.innerHTML = `
+            <td>${item.tag}</td>
+            <td>${item.release_date || '-'}</td>
+            <td>${createLink(item.github, 'GitHub')}</td>
+            <td>${createLink(item.wiki_zh, 'Wiki 中文')}</td>
+            <td>${createLink(item.wiki_en, 'Wiki EN')}</td>
+            <td>${createLink(item.cn_win, 'Windows')}</td>
+            <td>${createLink(item.cn_mac, 'macOS')}</td>
           `;
-          tbody.appendChild(row);
+
+          tbody.appendChild(tr);
         });
       })
-      .catch(err => {
-        const tbody = document.getElementById("version-table-body");
-        tbody.innerHTML = `<tr><td colspan="7">❌ 加载失败，请稍后重试</td></tr>`;
-        console.error("加载 JSON 出错：", err);
+      .catch(error => {
+        document.querySelector('.loading').innerText = `❌ 加载失败：${error.message}`;
       });
   </script>
 </body>
