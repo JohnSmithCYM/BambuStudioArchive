@@ -19,7 +19,7 @@
     "win": "https://github.com/bambulab/BambuStudio/releases/download/v02.01.00.59/Bambu_Studio_win_public-v02.01.00.59-20250530092153.exe",
     "mac": "https://github.com/bambulab/BambuStudio/releases/download/v02.01.00.59/Bambu_Studio_mac-v02.01.00.59-20250530092153.dmg",
     "cn_win":"https://www.alipan.com/s/Up9HmfW9RHf",
-    "cn_mac":""
+    "cn_mac":"https://pub-680a97ab0f534769a528095db2caa800.r2.dev/StudioDownload/Bambu_Studio_mac-v02.01.00.59-20250530092153.dmg"
   },
   {
     "tag": "V02.00.03.54",
@@ -30,7 +30,7 @@
     "win": "https://github.com/bambulab/BambuStudio/releases/download/V02.00.03.54/Bambu_Studio_win_public-v02.00.03.54-20250424182834.exe",
     "mac": "https://github.com/bambulab/BambuStudio/releases/download/V02.00.03.54/Bambu_Studio_mac-v02.00.03.54-20250424182834.dmg",
     "cn_win":"https://www.alipan.com/s/EvvVztrP1i3",
-    "cn_mac":""
+    "cn_mac":"https://pub-680a97ab0f534769a528095db2caa800.r2.dev/StudioDownload/Bambu_Studio_mac-v02.00.03.54-20250424182834.dmg"
   },
   {
     "tag": "v02.00.02.57",
@@ -41,7 +41,7 @@
     "win": "https://github.com/bambulab/BambuStudio/releases/download/v02.00.02.57/Bambu_Studio_win_public-v02.00.02.57-20250415200919.exe",
     "mac": "https://github.com/bambulab/BambuStudio/releases/download/v02.00.02.57/Bambu_Studio_mac-v02.00.02.57-20250415200919.dmg",
     "cn_win":"https://www.alipan.com/s/EvvVztrP1i3",
-    "cn_mac":""
+    "cn_mac":"https://pub-680a97ab0f534769a528095db2caa800.r2.dev/StudioDownload/Bambu_Studio_mac-v02.00.02.57-20250415200919.dmg"
   },
   {
     "tag": "v02.00.01.50",
@@ -52,7 +52,7 @@
     "win": "https://github.com/bambulab/BambuStudio/releases/download/v02.00.01.50/Bambu_Studio_win_public-v02.00.01.50-20250328181949.exe",
     "mac": "https://github.com/bambulab/BambuStudio/releases/download/v02.00.01.50/Bambu_Studio_mac-v02.00.01.50-20250328181949.dmg",
     "cn_win":"https://www.alipan.com/s/EvvVztrP1i3",
-    "cn_mac":""
+    "cn_mac":"https://pub-680a97ab0f534769a528095db2caa800.r2.dev/StudioDownload/Bambu_Studio_mac-v02.00.01.50-20250328181949.dmg"
   },
   {
     "tag": "v02.00.00.95",
@@ -63,7 +63,7 @@
     "win": "https://github.com/bambulab/BambuStudio/releases/download/v02.00.00.95/Bambu_Studio_win_public-v02.00.00.95-20250325211800.exe",
     "mac": "https://github.com/bambulab/BambuStudio/releases/download/v02.00.00.95/Bambu_Studio_mac-v02.00.00.95-20250325211800.dmg",
     "cn_win":"https://www.alipan.com/s/EvvVztrP1i3",
-    "cn_mac":""
+    "cn_mac":"https://pub-680a97ab0f534769a528095db2caa800.r2.dev/StudioDownload/Bambu_Studio_mac-v02.00.00.95-20250325211800.dmg"
   },
   {
     "tag": "v01.10.02.76",
@@ -74,7 +74,7 @@
     "win": "https://github.com/bambulab/BambuStudio/releases/download/v01.10.02.76/Bambu_Studio_win_public-v01.10.02.76-20250225202310.exe",
     "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.10.02.76/Bambu_Studio_mac-v01.10.02.76-20250225202310.dmg",
     "cn_win":"https://www.alipan.com/s/EvvVztrP1i3",
-    "cn_mac":""
+    "cn_mac":"https://pub-680a97ab0f534769a528095db2caa800.r2.dev/StudioDownload/Bambu_Studio_mac-v01.10.02.76-20250225202310.dmg"
   },
   {
     "tag": "v01.10.01.50",
@@ -85,7 +85,7 @@
     "win": "https://github.com/bambulab/BambuStudio/releases/download/v01.10.01.50/Bambu_Studio_win_public-v01.10.01.50-20241115162711.exe",
     "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.10.01.50/Bambu_Studio_mac-v01.10.01.50-20241115162711.dmg",
     "cn_win":"https://www.alipan.com/s/EvvVztrP1i3",
-    "cn_mac":""
+    "cn_mac":"https://pub-680a97ab0f534769a528095db2caa800.r2.dev/StudioDownload/Bambu_Studio_mac-v01.10.01.50-20241115162711.dmg"
   },
   {
     "tag": "v01.10.00.89",
@@ -96,7 +96,7 @@
     "win": "https://github.com/bambulab/BambuStudio/releases/download/v01.10.00.89/Bambu_Studio_win_public-v01.10.00.89-20241112123329.exe",
     "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.10.00.89/Bambu_Studio_mac-v01.10.00.89-20241112123329.dmg",
     "cn_win":"https://www.alipan.com/s/EvvVztrP1i3",
-    "cn_mac":""
+    "cn_mac":"https://pub-680a97ab0f534769a528095db2caa800.r2.dev/StudioDownload/Bambu_Studio_mac-v01.10.00.89-20241112123329.dmg"
   },
   {
     "tag": "v01.09.07.52",
@@ -107,7 +107,7 @@
     "win": "https://github.com/bambulab/BambuStudio/releases/download/v01.09.07.52/Bambu_Studio_win_public-v01.09.07.52-20240920143753.exe",
     "mac": "https://github.com/bambulab/BambuStudio/releases/download/v01.09.07.52/Bambu_Studio_mac-v01.09.07.52-20240920143753.dmg",
     "cn_win":"https://www.alipan.com/s/EvvVztrP1i3",
-    "cn_mac":""
+    "cn_mac":"https://pub-680a97ab0f534769a528095db2caa800.r2.dev/StudioDownload/Bambu_Studio_mac-v01.09.07.52-20240920143753.dmg"
   },
   {
     "tag": "v01.09.07.50",

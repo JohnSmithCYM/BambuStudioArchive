@@ -46,4 +46,4 @@ def batch_download_from_json(json_path, output_dir):
                 print(f"{filename} already exists. Skipping download.")
                 
 # 用法
-batch_download_from_json('C:/Users/malkey3/Documents/GitHub/BambuStudioArchive/python/bambu_studio_versions.json', 'E:/StudioDownload')
+batch_download_from_json('E:/Github/Data/BambuStudioArchive/bambu_studio_versions.json', 'E:/StudioDownload')
