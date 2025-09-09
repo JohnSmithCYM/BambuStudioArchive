@@ -1,10 +1,30 @@
 [
   {
+    "tag": "v02.02.01.60",
+    "release_date": "2025-08-28",
+    "github": "https://github.com/bambulab/BambuStudio/releases/tag/v02.02.01.60",
+    "wiki_zh": "https://wiki.bambulab.com/zh/software/bambu-studio/release/release-note-2-2-1-60",
+    "wiki_en": "https://wiki.bambulab.com/en/software/bambu-studio/release/release-note-2-2-1-60",
+    "win": "https://github.com/bambulab/BambuStudio/releases/download/v02.02.00.85/Bambu_Studio_win_public-v02.02.00.85-20250812192329.exe",
+    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v02.02.00.85/Bambu_Studio_mac-v02.02.00.85-20250812192329.dmg",
+    "cn_win": "https://pub-680a97ab0f534769a528095db2caa800.r2.dev/StudioDownload/Bambu_Studio_public-v02.02.01.60-20250828183151.exe",
+    "cn_mac": "https://pub-680a97ab0f534769a528095db2caa800.r2.dev/StudioDownload/Bambu_Studio_mac-v02.02.01.60-20250828183151.dmg"
+  },{
+    "tag": "v02.02.01.58",
+    "release_date": "2025-08-26",
+    "github": "https://github.com/bambulab/BambuStudio/releases/tag/v02.02.01.58",
+    "wiki_zh": "https://wiki.bambulab.com/zh/software/bambu-studio/release/release-note-2-2-1",
+    "wiki_en": "https://wiki.bambulab.com/en/software/bambu-studio/release/release-note-2-2-1",
+    "win": "https://github.com/bambulab/BambuStudio/releases/download/v02.02.00.85/Bambu_Studio_win_public-v02.02.00.85-20250812192329.exe",
+    "mac": "https://github.com/bambulab/BambuStudio/releases/download/v02.02.00.85/Bambu_Studio_mac-v02.02.00.85-20250812192329.dmg",
+    "cn_win": "https://pub-680a97ab0f534769a528095db2caa800.r2.dev/StudioDownload/Bambu_Studio_win_public-v02.02.01.58-20250826220055.exe",
+    "cn_mac": "https://pub-680a97ab0f534769a528095db2caa800.r2.dev/StudioDownload/Bambu_Studio_mac-v02.02.01.58-20250826220055.dmg"
+  },{
     "tag": "v02.02.00.85",
     "release_date": "2025-08-12",
     "github": "https://github.com/bambulab/BambuStudio/releases/tag/v02.02.00.85",
-    "wiki_zh": "https://wiki.bambulab.com/en/software/bambu-studio/release/release-note-2-2-0",
-    "wiki_en": "https://wiki.bambulab.com/zh/software/bambu-studio/release/release-note-2-2-0",
+    "wiki_zh": "https://wiki.bambulab.com/zh/software/bambu-studio/release/release-note-2-2-0",
+    "wiki_en": "https://wiki.bambulab.com/en/software/bambu-studio/release/release-note-2-2-0",
     "win": "https://github.com/bambulab/BambuStudio/releases/download/v02.02.00.85/Bambu_Studio_win_public-v02.02.00.85-20250812192329.exe",
     "mac": "https://github.com/bambulab/BambuStudio/releases/download/v02.02.00.85/Bambu_Studio_mac-v02.02.00.85-20250812192329.dmg",
     "cn_win": "https://pub-680a97ab0f534769a528095db2caa800.r2.dev/StudioDownload/Bambu_Studio_win_public-v02.02.00.85-20250812192329.exe",
